@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ProfileCardComponent } from "./common-ui/profile-card/profile-card.component";
-
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -10,5 +9,5 @@ import { ProfileCardComponent } from "./common-ui/profile-card/profile-card.comp
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'tik-talk';
+
 }
